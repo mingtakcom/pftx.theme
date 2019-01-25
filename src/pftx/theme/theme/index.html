@@ -1,62 +1,114 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Plone Theme</title>
-    <link rel="shortcut icon" type="image/x-icon"
-          href="barceloneta-favicon.ico" />
-    <link rel="apple-touch-icon"
-          href="barceloneta-apple-touch-icon.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144"
-          href="barceloneta-apple-touch-icon-144x144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="barceloneta-apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72"
-          href="barceloneta-apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57"
-          href="barceloneta-apple-touch-icon-57x57-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed"
-          href="barceloneta-apple-touch-icon-precomposed.png" />
-  </head>
-  <body>
-    <section id="portal-toolbar">
-    </section>
-    <div class="outer-wrapper">
-      <header id="content-header" role="banner">
-        <div class="container">
-          <header id="portal-top">
-          </header>
-          <div id="anonymous-actions">
-          </div>
-        </div>
-      </header>
-      <div id="mainnavigation-wrapper">
-        <div id="mainnavigation">
-        </div>
-      </div>
-      <div id="above-content-wrapper">
-          <div id="above-content">
-          </div>
-      </div>
-      <div class="container">
+<!DOCTYPE HTML>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
 
-        <!-- DELETE ME: -->
-        <h1 class="custom-theme-marker">Custom Plone theme based on Baceloneta</h1>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="description" content="PERFECT  GARMENT" />
+<meta property="og:title" content="PERFECT  GARMENT" />
+<meta property="og:description" content="PERFECT  GARMENT" />
+<meta property="og:image" content="" />
 
-        <div class="row">
-          <aside id="global_statusmessage"></aside>
-        </div>
-        <main id="main-container" class="row row-offcanvas row-offcanvas-right" role="main">
-          <div id="column1-container">
-          </div>
-          <div id="content-container">
-          </div>
-          <div id="column2-container">
-          </div>
-        </main><!--/row-->
-      </div><!--/container-->
-    </div> <!--/outer-wrapper -->
-    <footer id="portal-footer-wrapper" role="contentinfo">
-      <div class="container" id="portal-footer"></div>
-    </footer>
-  </body>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+<link rel="stylesheet" href="css/default.css">
+
+<script src="js/jquery-1.11.1.js"></script>
+<script src="fancybox/jquery.fancybox.js"></script>
+<script src="js/default.js"></script>
+<title>PERFECT  GARMENT</title>
+
+<style></style>
+</head>
+
+<body id="index">
+<div id="pageWrapper">
+
+<header>
+	<div class="logo"><b><a href="index.html" title="首頁">PERFECT  GARMENT</a></b></div>
+
+	<div class="wrapper">
+		<a href="javascript:void(0)" id="nav_icon" title="導覽"><i class="fa fa-bars fa-2x"></i> MENU</a>
+		<a data-fancybox data-type="iframe" data-src="login.html" data-options='{ "type" : "iframe", "iframe" : { "preload" : false, "css" : { "width" : "400px", "height" : "370px" } } }' href="javascript:;" id="nav_login" title="登入"><img src="images/btn_login.png"></a>
+		<nav>
+			<ul>
+				<li><a href="author.html">Home</a></li>
+				<li><a href="news.html" title="TRACEABILITY">TRACEABILITY </a></li>
+				<li><a href="project.html" title="KS1158D_APT-7265">KS1158D_APT-7265</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section class="project">
+	<div class="wrapper">
+		<div class="page_title"><img src="images/w.png"></div>
+		<div class="project_wrapper">
+			<div class="project_title">KS1158D_APT-7265</div>
+			<div class="items">
+				<div class="item" style="background-image: url(images/icon_01.png)">
+					<div class="item_title">GARMENT</div>
+					<div class="item_subtitle">VINATEX</div>
+					<div class="item_icons">
+						<a data-fancybox data-type="iframe" data-src="info.html" href="javascript:;" class="btn">REPORT</a>
+						<a href="" class="btn">PHOTO</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/icon_other.png)">
+					<div class="item_title">OTHER</div>
+					<div class="item_subtitle">朕億 ZhenYi</div>
+					<div class="item_icons">
+						<a href="" class="btn">REPORT</a>
+						<a href="" class="btn">PHOTO</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/icon_source.png)">
+					<div class="item_title">SOURSE</div>
+					<div class="item_subtitle">Polyester</div>
+					<div class="item_icons">
+						<a href="" class="btn">REPORT</a>
+						<a href="" class="btn">PHOTO</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/icon_dye.png)">
+					<div class="item_title">DYE</div>
+					<div class="item_subtitle">筠翔</div>
+					<div class="item_icons">
+						<a href="" class="btn">REPORT</a>
+						<a href="" class="btn">PHOTO</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/icon_knit.png)">
+					<div class="item_title">KNIT</div>
+					<div class="item_subtitle">織大 ZHI-DA LTD.</div>
+					<div class="item_icons">
+						<a href="" class="btn">REPORT</a>
+						<a href="" class="btn">PHOTO</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/icon_01.png)">
+					<div class="item_title">GARMENT</div>
+					<div class="item_subtitle">VINATEX</div>
+					<div class="item_icons">
+						<a href="" class="btn">REPORT</a>
+						<a href="" class="btn">PHOTO</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<a href="javascript:void(0)" id="scrollup" title="scroll to top"></a>
+
+</div><!--pageWrapper-->
+
+<script>
+$("[data-fancybox]").fancybox({
+//
+});
+</script>
+</body>
 </html>
