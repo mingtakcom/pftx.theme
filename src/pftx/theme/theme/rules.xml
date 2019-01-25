@@ -5,6 +5,12 @@
        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
        xmlns:xi="http://www.w3.org/2001/XInclude">
 
+  <!-- Include the backend theme -->
+  <xi:include href="++theme++barceloneta/backend.xml" />
+
+  <!-- Only theme front end pages -->
+  <rules css:if-content="body.frontend#visual-portal-wrapper">
+
   <theme href="index.html" />
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
@@ -98,5 +104,7 @@
   <!-- toolbar -->
   <replace css:theme="#portal-toolbar" css:content-children="#edit-bar" css:if-not-content=".ajax_load" css:if-content=".userrole-authenticated" />
   <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
+
+  </rules>
 
 </rules>
