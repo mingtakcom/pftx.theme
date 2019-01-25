@@ -1,0 +1,4 @@
+graft src/pftx
+graft docs
+include *.rst
+global-exclude *.pyc
