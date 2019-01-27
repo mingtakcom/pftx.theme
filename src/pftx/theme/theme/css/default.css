@@ -72,13 +72,14 @@ header nav ul li{
 	padding: 10px 40px 10px 10px;
 	background: url(../images/nav_bg.png) right center no-repeat;
 }
-header nav ul li a{
+header nav ul li a, header nav ul li span{
 	vertical-align: bottom;
 	line-height: 20px;
 	color: #FFF;
 	font-size: 20px;
 	font-weight: bold;
 }
+
 header nav ul li a:hover{
 	color: #FFF;
 }
