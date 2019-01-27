@@ -29,9 +29,12 @@
     <!-- drop the theme stylesheets -->
     <drop theme="/html/head/link[rel='stylesheet']" />
     <!-- CSS -->
-    <after css:theme-children="head" css:content="head link" />
+<!--    <after css:theme-children="head" css:content="head link" />
+-->
     <!-- Script -->
+<!--
     <after css:theme-children="head" css:content="head script" />
+-->
   </rules>
 
   <!-- Copy over the id/class attributes on the body tag. This is important for per-section styling -->
@@ -105,6 +108,13 @@
   <replace css:theme="#portal-toolbar" css:content-children="#edit-bar" css:if-not-content=".ajax_load" css:if-content=".userrole-authenticated" />
   <replace css:theme="#anonymous-actions" css:content-children="#portal-personaltools-wrapper" css:if-not-content=".ajax_load" css:if-content=".userrole-anonymous" />
 
+
+  <!-- custom -->
+<!--  <replace css:content="#content-core" css:theme-children=".project_wrapper .items .itema" />
+-->
+
+  <!-- drop -->
+  <drop css:content="#edit-zone"/>
   </rules>
 
 </rules>
