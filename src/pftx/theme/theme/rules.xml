@@ -34,7 +34,7 @@
     <replace css:content="#content-core" css:theme=".project_wrapper .items"/>
 
     <!-- h1.documentFirstHeading -->
-    <replace css:content-children="h1.documentFirstHeading" css:theme-children=".project_title"/>
+    <replace css:content-children="h2#myid" css:theme-children=".project_title"/>
 
     <!-- portal-breadcrumbs -->
     <replace css:content-children="#portal-breadcrumbs ol" css:theme-children="nav ul"/>
@@ -42,8 +42,10 @@
     <!-- drop -->
     <drop css:content="#edit-zone"/>
     <drop css:theme="#nav_login"/>
+    <drop css:content="h2#myid"/>
 
-
+    <!-- footer -->
+    <!-- replace css:content="footer" css:theme="footer"/ -->
 
   </rules>
 
